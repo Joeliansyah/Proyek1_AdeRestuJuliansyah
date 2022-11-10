@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/icontele</item>
+        <item>@drawable/icontwitter</item>
+        <item>@drawable/iconwa</item>
+    </array>
+
+    <array name="colors">
+        <item>@color/merah_maroon</item>
+        <item>@color/merah_bata</item>
+        <item>@color/hijau_gelap</item>
+    </array>
+</resources>

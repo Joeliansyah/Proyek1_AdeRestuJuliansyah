@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="iconss">
+        <item>@drawable/a10</item>
+        <item>@drawable/a11</item>
+        <item>@drawable/a13</item>
+    </array>
+
+    <array name="colorss">
+        <item>@color/merah_maroon</item>
+        <item>@color/merah_bata</item>
+        <item>@color/hijau_gelap</item>
+    </array>
+</resources>

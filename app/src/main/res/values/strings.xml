@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Proyek 1 Ade Restu Juliansyah</string>
+    <!-- Bagian Identitas Diri -->
+    <string name="nama">Ade Restu Juliansyah</string>
+    <string name="nim">232010033</string>
+    <string name="fakultas">Pendidikan MIPA dan Teknologi</string>
+    <string-array name="prodi">
+        <item>Pendidikan Matematika</item>
+        <item>Pendidikan Fisika</item>
+        <item>Pendidikan Teknologi Informasi</item>
+        <item>Pendidikan Biologi</item>
+    </string-array>
+
+    <!-- Bagian Aplikasi -->
+    <string name="pertama">Ini adalah Desain pertama di Android Studio</string>
+    <string name="pesan">Tuliskan pesan anda disini</string>
+    <string name="bPertama">Tekan</string>
+    <string name="bKedua">Lepas</string>
+    <string name="cb1">Pilihan 1</string>
+    <string name="cb2">Pilihan 2</string>
+    <string name="jk1">Laki-laki</string>
+    <string name="jk2">Perempuan</string>
+
+    <!-- Bagian LinearLayout 2 -->
+    <string name="kepada">Kepada</string>
+    <string name="subyek">Subyek</string>
+    <string name="isi">Isi Pesan</string>
+    <string name="kirim">Kirim</string>
+
+    <!-- Bagian Resources Modul Prak3 -->
+    <string name="copyright">Created by Ade Restu Juliansyah \n IKIP PGRI PONTIANAK</string>
+    <string name="username">Masukkan Nama Anda</string>
+
+</resources>

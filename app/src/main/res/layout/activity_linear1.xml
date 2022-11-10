@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <!-- TextView digunakan untuk menuliskan tabel-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pertama"/>
+
+    <!-- EditText digunakan untuk Input Text Panggung-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ePesan"
+        android:hint="@string/pesan"/>
+
+    <!-- Button digunakan untuk tombol-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bPertama"
+        android:text="@string/bPertama"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:id="@+id/bKedua"
+        android:text="@string/bKedua"/>
+
+    <!-- Image Button digunakan untuk tombol berbasis gambar-->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/biKetiga"
+        android:contentDescription=""
+        android:src="@drawable/a13"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/biKeempat"
+        android:contentDescription=""
+        android:src="@drawable/image_button"/>
+
+    <!-- Checkbox digunakan untuk mendapatkan pilihan pengguna yang lebih dari 1-->
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb1"
+        android:text="@string/cb1"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb2"
+        android:text="@string/cb2"/>
+
+    <!-- RadioGroup digunakan untuk mengelompokkan RadioButton
+    RadioButton digunakan untuk mendapatkan pilihan pengguna-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="@string/jk1"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="@string/jk2"/>
+    </RadioGroup>
+</LinearLayout>
